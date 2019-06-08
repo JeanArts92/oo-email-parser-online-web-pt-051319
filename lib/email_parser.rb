@@ -10,7 +10,6 @@ class EmailParser
   attr_accessor :emails
   
   def self.parse(email)
-    email = csv.split(", ")
     binding.pry
   end 
   
