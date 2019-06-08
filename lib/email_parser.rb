@@ -14,7 +14,7 @@ class EmailParser
     @emails = emails
   
   def self.parse(string)
-  parsed = string.gsub(",", "").split(" ")
+  @emails = string.gsub(",", "").split(" ")
     
   end 
   
