@@ -13,6 +13,7 @@ class EmailParser
   
   def self.parse(string)
   parsed = string.gsub(",", "").split(" ")
+  @@all << self.new 
     
   end 
   
