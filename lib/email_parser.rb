@@ -9,11 +9,12 @@ require 'pry'
 class EmailParser
   attr_accessor :emails
   
-  @@all = []
+  def initialize(emails)
+    
+    @emails = emails
   
   def self.parse(string)
   parsed = string.gsub(",", "").split(" ")
-  @@all << self.new 
     
   end 
   
