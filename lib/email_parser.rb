@@ -10,7 +10,7 @@ class EmailParser
   attr_accessor :emails
   
   def self.parse
-    binding.pry
+    binding.pry 
   end 
   
 end
