@@ -12,7 +12,7 @@ class EmailParser
   @@all = []
   
   def self.parse(string)
-  parsed = string.gsub(",", "").split
+  parsed = string.gsub(",", "").split(" ")
     
   end 
   
